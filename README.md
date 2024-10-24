@@ -10,7 +10,14 @@ The rules are parsed into an Abstract Syntax Tree (AST) and evaluated dynamicall
 1. REST API: Exposes an API endpoint to check user eligibility.
 1. Rule Composition: Supports complex rule compositions using AND/OR operators.
 
-**Prerequisites**
-Before running the project, make sure you have:
-*Node.js installed on your machine.
-*npm (Node package manager) installed.
+### Prerequisites
+1. Before running the project, make sure you have:
+1. Node.js installed on your machine.
+1. npm (Node package manager) installed.
+
+### Getting Started
+1. Clone the Repository
+```javascript
+git clone <repository-url>
+cd <project-directory>
+```
