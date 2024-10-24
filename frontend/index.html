@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eligibility Check</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="dummy"></div>
+    <center>
+    <div id="heading">User Eligibility Check</div>
+    <div>
+    <label for="age" class="main">Age:</label>
+    <input type="number" id="age" value="number">
+    </div>
+    <div>
+    <label for="department" class="main">Department:</label>
+    <label class="department_option">
+    <input type="radio" name="department" value="sales">Sales
+    <input type="radio" name="department" value="marketing">Marketing
+    </label>
+    </div>
+    <div>
+    <label for="income" class="main">Income:</label>
+    <input type="number" id="income" value="Income">
+    </div>
+    <div>
+    <label for="experience" class="main">Experience:</label>
+    <input type="number" id="experience" value="Experience">
+    </div>
+    <div class="button">
+    <button class="clickbutton" onclick="checkEligibility()">Check Eligibility</button>
+    <p id="result"></p>
+    </div>
+</center>
+<script src="./script.js"></script>
+</body>
+</html>
