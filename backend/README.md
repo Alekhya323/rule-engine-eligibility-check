@@ -1,4 +1,4 @@
-# Rule-Engine-Eligibility-Check
+# Rule-Engine-Eligibility-Check Backend
 **Project Overview**
 This project is a simple Rule-Based Eligibility Evaluation API built using Node.js and Express. The API evaluates whether a user satisfies a predefined set of eligibility rules.
 
