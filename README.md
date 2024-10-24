@@ -12,6 +12,6 @@ The rules are parsed into an Abstract Syntax Tree (AST) and evaluated dynamicall
 
 **Prerequisites**
 Before running the project, make sure you have:
-
 *Node.js installed on your machine.
 *npm (Node package manager) installed.
+
